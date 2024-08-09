@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddUserWidget</class>
+ <widget class="QWidget" name="AddUserWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>714</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>430</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>主菜单</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="usernameLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>130</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用户名（支持英文字母和数字）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID（仅支持数字）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="enrolltimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>210</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册时间（年-月-日）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="workstypeLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>250</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>作品类型（支持汉字或英文）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="worksnumLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>作品数量（数字）</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totalrateLable">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>330</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>作品总评分（数字）</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usernameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>130</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>170</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enrolltimeLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>210</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="workstypeLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>250</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="worksnumLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>290</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="totalrateLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>330</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>390</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>551</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>要添加用户信息，请在下列框中输入：</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

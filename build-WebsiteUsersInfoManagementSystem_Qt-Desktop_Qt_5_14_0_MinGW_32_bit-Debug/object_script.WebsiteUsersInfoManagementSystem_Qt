@@ -1,0 +1,16 @@
+adduserwidget.o
+checkwidget.o
+main.o
+mainwidget.o
+menuwidget.o
+modifywidget.o
+sortwidget.o
+typesearch.o
+userinfo.o
+moc_adduserwidget.o
+moc_checkwidget.o
+moc_mainwidget.o
+moc_menuwidget.o
+moc_modifywidget.o
+moc_sortwidget.o
+moc_typesearch.o
