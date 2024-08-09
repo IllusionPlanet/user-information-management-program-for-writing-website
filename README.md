@@ -1,2 +1,9 @@
-# user-information-management-program-for-writing-website
-写作网站用户信息管理程序
+**类型：** 简易程序
+
+**开发环境：** Qt Creator
+
+**技术栈：** C++，Qt
+
+**时间：** 大一夏季（程序设计实践课程）
+
+**人员：** 独立
